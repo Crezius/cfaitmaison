@@ -1,0 +1,170 @@
+h1 {
+    color: #2000ff;
+    font-size: 26px;
+    text-align: left;
+}
+
+h3 {
+    color: #4000ff;
+}
+
+h1,
+h3,
+h6 {
+    font-family: Georgia, "Trebuchet MS", "Arial Black", Arial, serif;
+    padding: 10px;
+    /* Marge intérieure de 12px */
+}
+
+p {
+    font-family: Garamond, Georgia, "Comic Sans MS", serif;
+    padding: 10px;
+    /* Marge intérieure de 12px */
+    text-align: justify;
+    /* Le paragraphe sera justifié */
+    color: black;
+    font-size: 16px;
+}
+
+.signature {
+    text-align: right;
+    /* Pour aligner à droite ma signature */
+    color: blue;
+}
+
+a {
+    color: blue;
+    /* Le lien sera écrit en bleu */
+    text-decoration: none;
+    /* Les liens ne seront plus soulignés */
+}
+
+a:hover
+/* Quand le visiteur pointe sur le lien */
+
+    {
+    color: #0020c0;
+    /* Le lien sera écrit en marine quand on pointera dessus */
+}
+
+h1:hover
+/* Quand on pointe sur un titre h2 */
+
+    {
+    color: #0020c0;
+    /* Le lien sera écrit en bleu moyen quand on pointera dessus */
+}
+
+a:visited
+
+    {
+    color: #0060ff;
+}
+
+a img
+
+    {
+    border: none;
+    /* Pas de bordure */
+}
+
+.blue {
+    text-align: center;
+    color: #003678;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: "Comic Sans MS", "Courier New", "Bookman Old Style", serif;
+}
+
+.bluepetit {
+    color: #003678;
+    font-size: 15px;
+    font-family: "Comic Sans MS", "Courier New", "Bookman Old Style", serif;
+}
+
+.mini {
+    color: blue;
+    font-size: 17px;
+}
+
+ul
+/* Ma liste aura des puces en forme de puces clignotantes*/
+
+    {
+    list-style-image: url("imagessite/puce.gif");
+}
+
+li {
+    font-size: 16px;
+}
+
+.imageflottanteright {
+    float: right;
+    margin-left: 20px;
+    /* Qu'il y ait une marge de 20px à gauche pour que ça colle pas trop au texte */
+    margin-bottom: 15px;
+    /* Qu'il y ait une marge de 15px dessous pour que ça colle pas trop au texte */
+}
+
+center {
+    font-size: 16px;
+    font-family: "Comic Sans MS", Garamond, Georgia, serif;
+}
+
+.bleu {
+    color: blue;
+    font-size: 16px;
+    font-family: "Comic Sans MS", Garamond, Georgia, serif;
+}
+
+.centre {
+    text-align: center;
+    /* Pour centrer */
+}
+
+.gras {
+    font-family: "Comic Sans MS", "Courier New", "Bookman Old Style", serif;
+}
+
+.element_menu {
+    border: 4px ridge #2080ff;
+    /* une bordure moyenne pr entourer chq élt du menu  */
+    margin-bottom: 9px;
+    /* Pour éviter que les éléments du menu ne soient trop collés */
+    padding: 2vw;
+    /* Pour éviter que les éléments du menu ne soient trop collés */
+    font-size: 17px;
+    background-image: url("imagessite/fondfleur2.jpg");
+}
+
+.strong {
+    font-weight: bold;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("images/mignon.jpg"); 
+
+}
+
+
+.article, .corp {
+    width: 50vw;
+    margin: 20px;
+    background-image: url("images/fleuboff.jpg"); 
+}
+
+td {
+    margin: 2vw;
+    background-color: white;
+}
+
+td, tr {
+    width: 90%;
+    padding: 2vw;
+}
+
+table {
+}
